@@ -1,1 +1,31 @@
-[]
+[
+ {
+  "date": "2026-11-13",
+  "ticker": "AMD",
+  "close": 534.06,
+  "ret_1d": -8.75,
+  "excess_1d": -5.76,
+  "abn_1d": -4.6,
+  "beta": 1.39,
+  "gap_pct": -3.16,
+  "intensity": 1.15,
+  "market_day": false,
+  "spy_d200": 3.44,
+  "earnings_reaction": null,
+  "next_earnings": null,
+  "tech_score": 45,
+  "cause_type": "pontual",
+  "confidence": 85,
+  "verdict": "aguardar_estabilizacao",
+  "levels": {
+   "entry_low": 511.75,
+   "entry_high": 534.06,
+   "stop": 423.6,
+   "target": 564.03,
+   "rr": 0.27
+  },
+  "outcomes": {
+   "basis": "next_open"
+  }
+ }
+]
