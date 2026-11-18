@@ -56,7 +56,9 @@
    "rr": 1.33
   },
   "outcomes": {
-   "basis": "next_open"
+   "basis": "next_open",
+   "entry_open": 71.71,
+   "limit_filled": true
   }
  },
  {
@@ -85,7 +87,9 @@
    "rr": 1.08
   },
   "outcomes": {
-   "basis": "next_open"
+   "basis": "next_open",
+   "entry_open": 372.18,
+   "limit_filled": true
   }
  },
  {
@@ -114,7 +118,9 @@
    "rr": 1.04
   },
   "outcomes": {
-   "basis": "next_open"
+   "basis": "next_open",
+   "entry_open": 178.55,
+   "limit_filled": false
   }
  },
  {
@@ -143,7 +149,9 @@
    "rr": 1.4
   },
   "outcomes": {
-   "basis": "next_open"
+   "basis": "next_open",
+   "entry_open": 118.25,
+   "limit_filled": true
   }
  },
  {
@@ -172,7 +180,9 @@
    "rr": 0.86
   },
   "outcomes": {
-   "basis": "next_open"
+   "basis": "next_open",
+   "entry_open": 354.41,
+   "limit_filled": false
   }
  },
  {
@@ -201,7 +211,9 @@
    "rr": 1.44
   },
   "outcomes": {
-   "basis": "next_open"
+   "basis": "next_open",
+   "entry_open": 156.9,
+   "limit_filled": true
   }
  },
  {
@@ -230,7 +242,9 @@
    "rr": 0.9
   },
   "outcomes": {
-   "basis": "next_open"
+   "basis": "next_open",
+   "entry_open": 726.2,
+   "limit_filled": true
   }
  },
  {
@@ -257,6 +271,153 @@
    "stop": 192.85,
    "target": 226.22,
    "rr": 0.86
+  },
+  "outcomes": {
+   "basis": "next_open",
+   "entry_open": 214.81,
+   "limit_filled": true
+  }
+ },
+ {
+  "date": "2026-11-17",
+  "ticker": "CRM",
+  "close": 194.52,
+  "ret_1d": -9.45,
+  "excess_1d": -6.16,
+  "abn_1d": -5.89,
+  "beta": 1.08,
+  "gap_pct": -2.71,
+  "intensity": 2.49,
+  "market_day": false,
+  "spy_d200": 0.36,
+  "earnings_reaction": null,
+  "next_earnings": null,
+  "tech_score": 50,
+  "cause_type": "pontual",
+  "confidence": 85,
+  "verdict": "aguardar_estabilizacao",
+  "levels": {
+   "entry_low": 190.45,
+   "entry_high": 194.52,
+   "stop": 185.26,
+   "target": 214.44,
+   "rr": 2.15
+  },
+  "outcomes": {
+   "basis": "next_open"
+  }
+ },
+ {
+  "date": "2026-11-17",
+  "ticker": "UNH",
+  "close": 389.68,
+  "ret_1d": -5.42,
+  "excess_1d": -4.01,
+  "abn_1d": -4.43,
+  "beta": 0.7,
+  "gap_pct": -3.1,
+  "intensity": 2.03,
+  "market_day": false,
+  "spy_d200": 0.36,
+  "earnings_reaction": null,
+  "next_earnings": null,
+  "tech_score": 45,
+  "cause_type": "estrutural",
+  "confidence": 85,
+  "verdict": "evitar",
+  "levels": {
+   "entry_low": 384.19,
+   "entry_high": 389.68,
+   "stop": 376.16,
+   "target": 402.85,
+   "rr": 0.97
+  },
+  "outcomes": {
+   "basis": "next_open"
+  }
+ },
+ {
+  "date": "2026-11-17",
+  "ticker": "NKE",
+  "close": 35.85,
+  "ret_1d": -6.3,
+  "excess_1d": -5.29,
+  "abn_1d": -5.77,
+  "beta": 0.53,
+  "gap_pct": 5.07,
+  "intensity": 1.9,
+  "market_day": false,
+  "spy_d200": 0.36,
+  "earnings_reaction": null,
+  "next_earnings": null,
+  "tech_score": 32,
+  "cause_type": "estrutural",
+  "confidence": 90,
+  "verdict": "aguardar_estabilizacao",
+  "levels": {
+   "entry_low": 35.22,
+   "entry_high": 35.85,
+   "stop": 34.09,
+   "target": 38.48,
+   "rr": 1.49
+  },
+  "outcomes": {
+   "basis": "next_open"
+  }
+ },
+ {
+  "date": "2026-11-17",
+  "ticker": "NET",
+  "close": 284.8,
+  "ret_1d": -2.99,
+  "excess_1d": 0.3,
+  "abn_1d": 1.35,
+  "beta": 1.32,
+  "gap_pct": 0.48,
+  "intensity": 0.84,
+  "market_day": false,
+  "spy_d200": 0.36,
+  "earnings_reaction": null,
+  "next_earnings": null,
+  "tech_score": 50,
+  "cause_type": "pontual",
+  "confidence": 85,
+  "verdict": "aguardar_estabilizacao",
+  "levels": {
+   "entry_low": 273.21,
+   "entry_high": 284.8,
+   "stop": 254.01,
+   "target": 304.9,
+   "rr": 0.65
+  },
+  "outcomes": {
+   "basis": "next_open"
+  }
+ },
+ {
+  "date": "2026-11-17",
+  "ticker": "DDOG",
+  "close": 165.18,
+  "ret_1d": -4.44,
+  "excess_1d": -1.15,
+  "abn_1d": 0.03,
+  "beta": 1.36,
+  "gap_pct": -1.03,
+  "intensity": 0.72,
+  "market_day": false,
+  "spy_d200": 0.36,
+  "earnings_reaction": null,
+  "next_earnings": null,
+  "tech_score": 60,
+  "cause_type": "pontual",
+  "confidence": 85,
+  "verdict": "aguardar_estabilizacao",
+  "levels": {
+   "entry_low": 157.45,
+   "entry_high": 165.18,
+   "stop": 146.65,
+   "target": 186.46,
+   "rr": 1.15
   },
   "outcomes": {
    "basis": "next_open"
