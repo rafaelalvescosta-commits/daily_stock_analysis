@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+- [chore] 本 fork 关闭「每日股票分析」工作流的定时触发（保留手动 `workflow_dispatch`），仅保留 Dip Scanner 定时推送。
 - [新功能] 新增 Dip Scanner 离线回测（`python -m src.services.dip_backtest`）：复用扫描器的指标、触发、冷却、排序、点位与结果计算，按年份、SPY 均线状态、技术规则与止损宽度输出统计，支持扩展股票池以减少幸存者偏差。
 - [改进] Dip Scanner：止损缓冲由 0.5×ATR 调整为 1×ATR；技术评分按回测在两个时间段方向一致的规则重设（新增 SPY 跌破 200 日均线 +15、放量 ≥3 倍与大幅低开扣分，移除个股 200 日均线与超卖 <25 加分）；记录与报告新增大盘状态（`spy_d200`）分组统计。
 - [改进] Dip Scanner：相对 ETF 跌幅改为按 120 日 beta 调整（`abn_1d`），信号按 ATR 强度排序并标记“大盘日”；新增开盘跳空与财报日/临近财报标记；信号表现改为从次日开盘计算并对比 SPY，统计按原因与 LLM 结论分组；修复节假日重复推送、同一下跌事件重复记录、行情未更新的股票被误算；新增 `DIP_COOLDOWN_SESSIONS`、`DIP_MARKET_DAY_PCT`。COIN/PYPL 默认基准改为 IBIT/XLF。
